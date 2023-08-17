@@ -22,3 +22,7 @@ export interface IProveedor {
   nombre: string;
   created_at: string;
 }
+
+export interface ILayoutProps {
+  children: React.ReactNode;
+}
